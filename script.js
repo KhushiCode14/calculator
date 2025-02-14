@@ -1,4 +1,5 @@
-// s;ecting element
+// selecting element
+// DOM ,Array,forEach,from,addEventListener,eval
 const input = document.getElementById("display"); // input
 const buttons = document.getElementsByClassName("button"); //button
 let expression = "";
@@ -28,5 +29,3 @@ Array.from(buttons).forEach((button) => {
 });
 console.log(expression);
 // alternative of eval is json.parse()
-
-
